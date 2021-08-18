@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cáulculo IMC</title>
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="imc.css">
+        <script src="imc.js"></script>      
+    </head>
+
+    <body class="body">
+        <h1 class="title">Cálculo do IMC</h1>
+        <h2>Digite sua altura e seu peso nos campos abaixo:</h2>
+
+        <label class="label" for="altura">Altura:</label>
+        <input class="input" id="altura" type="number" step="0.01">
+
+        <br><br>
+
+        <label class="label" for="peso">Peso:</label>
+        <input class="input" id="peso" type="number" step="0.01">
+
+        <br><br>
+
+        <button class="btn-acoes" onclick="calcularImc()">Calcular</button>
+        <button class="btn-acoes" onclick="limpar()">Limpar</button>
+
+        <br>
+
+        <p id="resultado" class="resultado"></p>
+        <p id="imcResultado"></p>
+    </body>
+</html>

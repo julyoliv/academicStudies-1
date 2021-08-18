@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    color: crimson;
+}
+
+.body {
+    text-align: center;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input {
+    font-size: 20px;
+    font-size: 15px;
+    border: groove 2px indianred;
+    border-radius: 7px;
+}
+
+.btn-acoes {
+    font-size: 15px;
+    color: white;
+    background: indianred;
+    width: 20%;
+    border: double;
+    border-radius: 7px;
+}
